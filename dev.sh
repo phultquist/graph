@@ -1,0 +1,1 @@
+cargo watch -i .gitignore -i "pkg/*" -i "web/*" -s "wasm-pack build --target web --out-dir web/pkg && cp web/src/pkg/*.wasm web/static"       
